@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "504210237700",
+    "firebase_url": "https://basitinstagramclonefirebase.firebaseio.com",
+    "project_id": "basitinstagramclonefirebase",
+    "storage_bucket": "basitinstagramclonefirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504210237700:android:21e3f0ea691ae432",
+        "android_client_info": {
+          "package_name": "com.bilal.karademir.basitinstagramclonefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504210237700-9f1ischos6m51a287rqc2kevsiblk2le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bilal.karademir.basitinstagramclonefirebase",
+            "certificate_hash": "4c4fd8c784d30d5d9a1717ae18c26215690d527a"
+          }
+        },
+        {
+          "client_id": "504210237700-3alb96us285ctvda9td1kcfv83gctl5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqWxfzvtwTtrkGLpsVa097HCkVHgdJHVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504210237700-3alb96us285ctvda9td1kcfv83gctl5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

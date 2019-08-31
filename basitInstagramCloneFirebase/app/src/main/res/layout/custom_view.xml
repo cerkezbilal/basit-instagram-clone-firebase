@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewUserEmailCustomView"
+        android:layout_width="224dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="39dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTarihCustomView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTarihCustomView"
+        android:layout_width="136dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="23dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCustomView"
+        android:layout_width="281dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUserEmailCustomView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewCommentCustomView"
+        android:layout_width="325dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCustomView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
